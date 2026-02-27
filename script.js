@@ -1,3 +1,5 @@
+// HTML IN JAVASCRIPT SHOULD BE USED IN DOUBLE QUOTES
+
 // console.log("Hello World");
 // document.write("Hello World");
 
@@ -57,15 +59,56 @@
 // </script> */}
 
 
+// for in loop
+
+// for in methods for input (1- square bracket 2- person.x)
 
 // for(key in object){
-
+// code block to be executed
 // }
-const person={
-    fname: "Ajay",
-    lname:" Singh",
-    age:25
-};
-for(let x in person){
-    console.log("person details:"+ x +":"+ person[x])
+// const person={
+//     fname:"Ajay",
+//     lname:" Singh",
+//     age:25
+// };
+// for(let x in person){
+//     console.log("person details: "+ x +":"+ person[x])
+// }
+
+
+// while loop
+// var count=0;
+// document.write("Starting Loop");
+// while(count<10){
+//     document.write("current count:" )
+// }
+
+
+// conditional statement
+//if-else statement
+
+// var age=2;
+// if(age>18){
+//     document.write("<b>You are eligible to cast the vote</b>")
+// }
+// else{
+//     console.log("You are minor")
+// }
+
+
+// SWITCH CASE
+
+var grade='A';
+document.write("ENTERING SWITCH BLOCK <br/>");
+switch(grade){
+    case 'A':document.write("GOOD JOB <br/>");
+    break;
+    case 'B':document.write("PRETTY GOOD <br/>");
+    break;
+    case 'C':document.write("PASSED <br/>");
+    break;
+    case 'D':document.write("NOT SO GOOD <br/>");
+    break;
+    default:document.write("unknown grade <br/>")
 }
+document.write("Exiting switch block <br/>")
