@@ -98,17 +98,39 @@
 
 // SWITCH CASE
 
-var grade='A';
-document.write("ENTERING SWITCH BLOCK <br/>");
-switch(grade){
-    case 'A':document.write("GOOD JOB <br/>");
-    break;
-    case 'B':document.write("PRETTY GOOD <br/>");
-    break;
-    case 'C':document.write("PASSED <br/>");
-    break;
-    case 'D':document.write("NOT SO GOOD <br/>");
-    break;
-    default:document.write("unknown grade <br/>")
-}
-document.write("Exiting switch block <br/>")
+// var grade='A';
+// document.write("ENTERING SWITCH BLOCK <br/>");
+// switch(grade){
+//     case 'A':document.write("GOOD JOB <br/>");
+//     break;
+//     case 'B':document.write("PRETTY GOOD <br/>");
+//     break;
+//     case 'C':document.write("PASSED <br/>");
+//     break;
+//     case 'D':document.write("NOT SO GOOD <br/>");
+//     break;
+//     default:document.write("unknown grade <br/>")
+// }
+// document.write("Exiting switch block <br/>")
+
+
+// const result=document.getElementById("para");
+// result.innerHTML="my self";
+// result.title="myname";
+// console.log(result);
+// const result2=document.getElementsByClassName("heading");
+// result2.innerHTML ="HIII";
+
+//  const element= document.getElementById("myH1");
+//         let text = element.getattribute("class");
+//         document.getElementById("demo").innerHTML = text
+
+// const heading= document.createElement("h2");
+// const bodytag= document.getElementsByTagName("body");
+// bodytag[0].append(heading);
+// heading.innerText="hello"; heading.style.backgroundColor="red";
+
+// function onMouseOver(){
+//     console.log("ON MOUSE OVER");
+// }
+
